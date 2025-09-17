@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Login Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      text-align: center;
+    }
+
+    h1 {
+      color: darkblue;
+      margin-top: 30px;
+    }
+
+    h2 {
+      color: green;
+    }
+
+    details {
+      margin: 20px auto;
+      width: 300px;
+      border: 1px solid #ccc;
+      padding: 15px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      text-align: left;
+    }
+
+    summary {
+      cursor: pointer;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    form {
+      margin-top: 15px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 12px;
+      color: #333;
+      font-size: 14px;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 95%;
+      padding: 8px;
+      border: 1px solid #aaa;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+
+    input[type="submit"] {
+      background: darkblue;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    input[type="submit"]:hover {
+      background: navy;
+    }
+  </style>
+</head>
+<body>
+  <h1>Enter the Username</h1>
+  <h2>So click the below button</h2>
+
+  <details>
+    <summary>Click here to open the form</summary>
+    <form action="FirstServerprogram" method="get">
+      <label>
+        Username: 
+        <input type="text" name="username" required>
+      </label>
+      <label>
+        Password: 
+        <input type="password" name="password" required>
+      </label>
+      <input type="submit" value="Click Me">
+    </form>
+  </details>
+
+</body>
+</html>
